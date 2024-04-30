@@ -1,0 +1,22 @@
+[
+    {
+      "SetIndex": 1,
+      "Symbol": "CE",
+      "Conditions": [
+        {"Parameter": "Time", "Operator": ">", "Value": "02:00:00"},
+        {"Parameter": "Signal", "Operator": ">", "Value": "-4"},
+        {"Parameter": "Histogram", "Operator": ">", "Value": "3"},
+        {"Parameter": "Spot_Price", "Operator": ">", "Value": "150"},
+        {"Parameter": "Signal", "Operator": "<", "Value": "0.7"}
+      ]
+    },
+    {
+      "SetIndex": 2,
+      "Symbol": "PE",
+      "Conditions": [
+        {"Parameter": "Time", "Operator": "<", "Value": "09:47:00"},
+        {"Parameter": "Spot_Price", "Operator": ">", "Value": "49000"}
+      ]
+    }
+  ]
+  

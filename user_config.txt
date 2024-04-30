@@ -1,0 +1,8 @@
+quantity = 15
+order_type = MARKET
+sell_time_condition = 1
+target = 0.5
+stop_loss = 0.5
+limit_ltp = 145
+ikey_criteria = STRIKE
+ikey_value = 50000
