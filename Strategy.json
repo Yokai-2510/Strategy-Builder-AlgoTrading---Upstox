@@ -7,7 +7,7 @@
         {"Parameter": "Signal", "Operator": ">", "Value": "-4"},
         {"Parameter": "Histogram", "Operator": ">", "Value": "3"},
         {"Parameter": "Spot_Price", "Operator": ">", "Value": "150"},
-        {"Parameter": "Signal", "Operator": "<", "Value": "0.7"}
+        {"Parameter": "Signal", "Operator": "<", "Value": "MACD"}
       ]
     },
     {
