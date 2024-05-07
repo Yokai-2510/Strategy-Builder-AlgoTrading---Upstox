@@ -1,4 +1,6 @@
-[General Bot Structure](https://github.com/Yokai-2510/Strategy-Builder-Automated-Trading-/assets/153069163/8343133f-1e75-4960-afaa-8df9b1d5a4dc)
+### General Bot Structure
+This flowchart illustrates the overall structure and flow of the trading bot.
+![General Bot Structure](General%20Bot%20Structure.jpg)
 
 
 # Strategy Builder - Automated Trading
