@@ -36,7 +36,7 @@ def calculate_macd(access_token, n): # n=4 : caliberated
         df['Datetime'] = pd.to_datetime(df['Datetime'])
         df = df.sort_values(by='Datetime')
         df.set_index('Datetime', inplace=True)
-        df_resampled = df.resample('5T').last()
+        df_resampled = df.resample('5min').last()
         df_resampled.reset_index(inplace=True)
         df_resampled = df_resampled.dropna()
         return df_resampled
@@ -58,7 +58,7 @@ def calculate_macd(access_token, n): # n=4 : caliberated
         df['Datetime'] = pd.to_datetime(df['Datetime'])
         df = df.sort_values(by='Datetime')
         df.set_index('Datetime', inplace=True)
-        df_resampled = df.resample('5T').last()
+        df_resampled = df.resample('5min').last()
         df_resampled.reset_index(inplace=True)
         df_resampled = df_resampled.dropna()
         return df_resampled
