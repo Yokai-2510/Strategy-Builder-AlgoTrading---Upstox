@@ -1,5 +1,6 @@
 ### General Bot Structure
-This flowchart illustrates the overall structure and flow of the trading bot.
+This flowchart illustrates the overall structure and flow of the trading bot.AutoLogin is currently not implemented but can be implemented easily though playwright or selenium.
+
 ![General Bot Structure](General%20Bot%20Structure.jpg)
 
 
