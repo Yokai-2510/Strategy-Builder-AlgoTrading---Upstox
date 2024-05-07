@@ -38,5 +38,5 @@ After a buy order has been placed, the conditions will be checked in parallel. T
   - `target`: Target or profit for the sell order.
   - `stop_loss`: Stop loss for the sell order.
   - `limit_ltp`: If the order type is specified as `LIMIT`, input the limit last traded price (LTP). If the order type is `MARKET`, this criteria won't matter.
-  - `ikey_criteria`: Possible values are `Delta`, `Theta`, `LTP`, `Strike`, `ATM`, or `ITM`. Users can specify a value for these, and a buy order will be placed for that instrument key.
+  - `ikey_criteria`: Possible values are `DELTA`, `LTP`, `Strike`, `ATM`, or `ITM`. Users can specify a value for these, and a buy order will be placed for that instrument key.
   - `ikey_value`: Specify the value for the buy instrument key. This won't matter in case of `ATM` or `ITM`.
