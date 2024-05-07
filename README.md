@@ -1,3 +1,6 @@
+[General Bot Structure](https://github.com/Yokai-2510/Strategy-Builder-Automated-Trading-/assets/153069163/8343133f-1e75-4960-afaa-8df9b1d5a4dc)
+
+
 # Strategy Builder - Automated Trading
 
 ## Strategy Builder
@@ -40,3 +43,4 @@ After a buy order has been placed, the conditions will be checked in parallel. T
   - `limit_ltp`: If the order type is specified as `LIMIT`, input the limit last traded price (LTP). If the order type is `MARKET`, this criteria won't matter.
   - `ikey_criteria`: Possible values are `DELTA`, `LTP`, `Strike`, `ATM`, or `ITM`. Users can specify a value for these, and a buy order will be placed for that instrument key.
   - `ikey_value`: Specify the value for the buy instrument key. This won't matter in case of `ATM` or `ITM`.
+
